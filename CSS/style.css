@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: #5da8d0;
+    font-size: 2em;
+    flex-wrap: wrap;
+    padding: 3vh 3vw 3vh 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0 20vw 0 20vw;
+}
+
+nav ul li a { 
+    color: white;
+    text-decoration: none;
+}
