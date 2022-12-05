@@ -56,7 +56,7 @@ main {
 }
 
 h2 {
-    padding-bottom:20px;
+    padding-bottom:1px;
 }
 
 .mid-paragraph-image {
@@ -69,6 +69,33 @@ h2 {
     margin-top: 20px;
 }
 
+button {
+    margin: auto;
+}
+
 .info-button {
     width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+
+main p {
+    font-size: 25px;
+}
+
+footer {
+    background-color: #5da8d0;
+    color: white;
+    height: 15vh;
+    font-size: 25px;
+    margin: auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
