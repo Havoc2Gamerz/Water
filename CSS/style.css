@@ -87,10 +87,13 @@ h2 {
 
 button {
     margin: auto;
+    
 }
 
 button a {
     text-decoration: none;
+    color: #000000;
+    font-size: medium;
 }
 
 .info-button {
@@ -102,6 +105,9 @@ button a {
     margin-top: 20px;
     margin-bottom: 4%;
     height: 20%;
+    color: #5da8d0;
+    background-color:#5da8d0
+    
  
 }
 
